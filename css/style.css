@@ -1,14 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tagesschrift&display=swap');
 
-Add commentMore actions .tagesschrift-regular {
-    font-family: "Tagesschrift", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-
-* {
-    margin: 0%;
-    padding: 0%;
+*{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -30,11 +24,6 @@ html {
 body {
     background-color: var(--black);
     color: var(--white);
-}
-
-@font-face {
-    font-family: futurak;
-    src: url("./fonts/futurak.ttf");
 }
 
 .logo-pic {
@@ -83,7 +72,96 @@ body {
     padding: 4px;
 
 }
-
-.pic-container {
+.pic{
     width: 100%;
+}
+
+
+.brand-heading {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 50px;
+
+}
+
+.para-heading {
+    font-family: futurak;
+    font-size: 6rem;
+}
+
+.brand-para {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--light-gray);
+    margin-bottom: 30px;
+}
+
+.grand-contrainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.grand-children-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px;
+    padding: 5px;
+   
+}
+
+.grand-btn {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid var(--light-gray);
+    margin-top: 30px;
+    font-size: 1.5rem;
+
+}
+
+.grand-children-image img{
+    background-color: var(--white);
+    padding: 40px;
+     width: 300px;
+     height: 150px;
+}
+
+
+.back{
+    background-color: var(--dark-grey);
+}
+.franchies-logo{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+
+}
+.sub-section2{
+    margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+    
+    
+}
+.address1{
+    display: inline;
+    justify-content: end;
+    width: 200%;
+    justify-content: center;
+    
+}
+.heading{
+    justify-content: flex-start;
+    gap: 50px;
+    
 }
